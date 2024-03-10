@@ -27,7 +27,6 @@ import { ForgotPassword } from "../src/pages/forgotPassword/index";
 function App() {
   return (
     <BrowserRouter>
-      <GitHubBanner />
       <RefineKbarProvider>
         
           <AntdApp>
