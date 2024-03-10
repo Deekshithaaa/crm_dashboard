@@ -22,7 +22,7 @@ import {
 } from "antd";
 import dayjs from "dayjs";
 import { User } from "@/graphql/schema.types";
-import { getDateColor } from "@/utilities";
+import { getDateColor } from "../../../utilities/date/get-date-colors";
 import { TextIcon } from "@/components/text-icon";
 import { CustomAvatar } from "@/components/custom-avatar";
 

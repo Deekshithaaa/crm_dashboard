@@ -5,7 +5,7 @@ import { Typography, Space, Tag } from "antd";
 import dayjs from "dayjs";
 
 import { Text } from "@/components/text";
-import { getDateColor } from "@/utilities";
+import { getDateColor } from "../../../utilities/date/get-date-colors";
 
 import { Task } from "@/graphql/schema.types";
 import { UserTag } from "@/components/tags/user-tag";
